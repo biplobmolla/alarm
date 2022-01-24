@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="active">
+        <div class="alarm-box">
+            <h4>Stop Alarm</h4>
+            <button id="stop">Stop</button>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="form">
+            <input id="minuteNumber" type="text" placeholder="minute">
+            <input id="secondNumber" type="text" placeholder="second">
+            <input id="start" type="submit" value="Start">
+        </div>
+
+        <div id="container">
+            <h1 id="minute"></h1>
+            <span> : </span>
+            <h1 id="second"></h1>
+        </div>
+    </div>
+
+    <audio controls id="alarm">
+        <source src="alarm.mp3" type="audio/mp3">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
