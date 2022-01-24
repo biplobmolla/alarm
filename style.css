@@ -100,6 +100,12 @@ audio {
 }
 
 @media (max-width: 1060px) {
+    
+    .content {
+        height: 100vh;
+        width: 100vw;
+    }
+    
     .form {
         flex-direction: column;
         width: 100%;
